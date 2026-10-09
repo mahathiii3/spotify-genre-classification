@@ -2,39 +2,41 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
   <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab"/>
 </p>
 
 <p align="center">
-  🎧 A machine learning classification project that predicts music genres from Spotify track features.
+  <b>🎧 A Machine Learning Classification Case Study for Spotify Music Genres</b>
 </p>
 
 ---
 
-## 📌 Project Overview
+## 📌 About the Project
 
-Music streaming platforms contain large collections of tracks across different genres. This project explores how machine learning can classify Spotify tracks based on their available audio features.
+This project applies machine learning classification algorithms to Spotify track data to predict music genres using available audio features.
 
-## 🎯 Objectives
+The project covers data exploration, preprocessing, model training, evaluation, and performance comparison.
+
+## 🎯 Project Objectives
 
 - Explore and visualize Spotify track data.
 - Clean and preprocess the dataset.
-- Train and compare five machine learning classification algorithms.
-- Evaluate model performance using classification metrics.
-- Identify the strengths and limitations of the models.
+- Train multiple classification algorithms.
+- Evaluate models using classification metrics.
+- Compare model performance and identify limitations.
 
 ## 📂 Project Files
 
 | File | Description |
 |---|---|
-| 📓 `spotify-genre-classification.ipynb` | Jupyter notebook containing data exploration, preprocessing, model training, and evaluation |
-| 📊 `spotify-tracks.csv` | Dataset containing Spotify track information |
-
-**Note:** Upload both files to this repository using the filenames above. The links will work once the files are uploaded.
+| 📓 [CASE_STUDY_1_-_SPOTIFY.ipynb](./CASE_STUDY_1_-_SPOTIFY.ipynb) | Notebook containing the analysis, model training, and evaluation |
+| 📊 [spotify-tracks.csv](./spotify-tracks.csv) | Spotify track dataset used in the project |
 
 ## 🧠 Machine Learning Algorithms
+
+The notebook evaluates the following five classification algorithms:
 
 1. Logistic Regression
 2. K-Nearest Neighbors (KNN)
@@ -50,43 +52,54 @@ Music streaming platforms contain large collections of tracks across different g
 - Weighted F1-score
 - Confusion Matrix
 
-## 🛠️ Tech Stack
+## 🛠️ Tools and Technologies
 
-| Category | Tools |
+| Technology | Purpose |
 |---|---|
-| Language | Python |
-| Data processing | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Machine learning | Scikit-learn |
-| Environment | Google Colab / Jupyter Notebook |
+| Python | Programming language |
+| Pandas | Data manipulation |
+| NumPy | Numerical operations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| Scikit-learn | Machine learning and model evaluation |
+| Google Colab | Notebook development |
 
-## 🚀 How to Run
+## 🚀 How to Run the Project
 
-1. Download the notebook and dataset from the **Project Files** section.
-2. Open the notebook in [Google Colab](https://colab.research.google.com/).
-3. Upload `spotify-tracks.csv` to the Colab session.
-4. Run the notebook cells in order.
-5. Review the visualizations, evaluation metrics, and model comparisons.
+1. Open the [Jupyter Notebook](./CASE_STUDY_1_-_SPOTIFY.ipynb).
+2. Download the notebook using GitHub's download option.
+3. Open [Google Colab](https://colab.research.google.com/).
+4. Upload the notebook and the [dataset](./spotify-tracks.csv).
+5. Update the dataset path in the notebook if necessary.
+6. Run the cells in order to reproduce the analysis and results.
+
+## 📈 Expected Project Outcomes
+
+- Insights into the Spotify dataset.
+- Comparison of five classification algorithms.
+- Evaluation metrics and confusion matrices.
+- Understanding of the challenges involved in multiclass music genre classification.
 
 ## 💡 Key Learning Outcomes
 
-- Data cleaning and preprocessing
-- Multiclass classification
-- Feature preparation and scaling
-- Model evaluation and comparison
-- Data visualization and interpretation
+- Data preprocessing and feature selection.
+- Multiclass classification.
+- Machine learning model training.
+- Model evaluation and comparison.
+- Data visualization and interpretation.
 
-## 👩‍💻 Project Information
+## 📚 Project Information
 
-**Project Type:** Machine Learning — Classification  
-**Domain:** Music Analytics  
-**Purpose:** Academic learning and portfolio development
-
----
+- **Project:** Spotify Genre Classification
+- **Domain:** Music Analytics
+- **Type:** Supervised Machine Learning — Classification
+- **Environment:** Google Colab
 
 ## ⚠️ Dataset Disclaimer
 
-This project is intended for educational purposes. Please check the dataset's license and redistribution terms before making the CSV publicly available.
+This project is intended for educational purposes. Please ensure that the dataset's license permits public redistribution before sharing it.
+
+---
 
 <p align="center">
   ⭐ If you find this project interesting, consider starring the repository!
