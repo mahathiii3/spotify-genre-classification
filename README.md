@@ -31,7 +31,7 @@ The project covers data exploration, preprocessing, model training, evaluation, 
 
 | File | Description |
 |---|---|
-| 📓 [CASE_STUDY_1_-_SPOTIFY.ipynb](./CASE_STUDY_1_-_SPOTIFY.ipynb) | Notebook containing the analysis, model training, and evaluation |
+| 📓 CASE_STUDY_1_—_SPOTIFY.ipynb| Notebook containing the analysis, model training, and evaluation |
 | 📊 [spotify-tracks.csv](./spotify-tracks.csv) | Spotify track dataset used in the project |
 
 ## 🧠 Machine Learning Algorithms
